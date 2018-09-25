@@ -8,10 +8,10 @@ class Database {
 	// The protected construct prevents instantiating the class externally.  The construct can be
 	// empty, or it can contain additional instructions...
 	protected function __construct() {
-		$host = 'localhost';
-		$dbname = 'bart_iot';
-		$user = 'bart_iot';
-		$password = '4ZBVzEmThpS4VP4b';
+		$host = 'us-cdbr-iron-east-01.cleardb.net';
+		$dbname = 'heroku_d9bce6fe37757ea';
+		$user = 'b783ce80b206e7';
+		$password = '306b0fb8';
 		
 		
 		$this->connection = mysqli_connect($host, $user, $password, $dbname);
